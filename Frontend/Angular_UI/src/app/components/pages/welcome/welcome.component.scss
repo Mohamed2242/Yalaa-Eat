@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../../../assets/restaurant-mural-wallpaper.avif');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    overflow: hidden;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+        h1{
+            font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            color: rgb(228, 12, 252);
+            border: 2px solid rgb(228, 12, 252);
+            border-radius: 10px;
+            padding: 5px 10px;
+        }
+}
+
+.banner-text{
+    width: 70%;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    height: 1px;
+    text-align: center;
+}
+.header-text{
+    font-weight: bold;
+    margin: 30px;
+    font-size: 5em;
+    color: rgb(228, 12, 252);
+    display: inline-block;
+    font-family: 'Kaushan Script', cursive;
+}
+p{
+    font-size: 2.25em;
+    color: rgb(230, 230, 230);
+    padding: 5px 0;
+    line-height: 2em;
+    letter-spacing: 0.2em;
+}
+
+.btn{
+    margin: 50px;
+    display: inline-flex;
+    border: 0px;
+    a{
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        border: 2px solid rgb(228, 12, 252);
+        margin: 0 50px;
+        position: relative;
+        border-radius: 2em;
+        text-decoration: none;
+        z-index: 1;
+        color: white;
+    }
+}
+
+span{
+    position: absolute;
+    width: 0;
+    height: 100%;
+    border-radius: 2em;
+    left: 0;
+    top: 0;
+    background: rgb(228, 12, 252);
+    z-index: -1;
+    transition: 0.5s;
+}
+.btn a:hover span{
+    width: 100%;
+}
+.btn a:hover{
+    color: black;
+    border:none;
+}

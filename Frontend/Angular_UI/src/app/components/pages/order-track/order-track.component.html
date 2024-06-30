@@ -1,0 +1,18 @@
+<app-loading></app-loading>
+
+<app-header></app-header>
+<div class="container">
+    <div class="content" *ngIf="order">
+      <h1>Order #{{order.id}}</h1>
+      <div class="details">
+        <div><strong>Name</strong> {{Name}}</div>
+        <div><strong>Email</strong> {{Email}}</div>
+        <div><strong>Date</strong> {{order.orderDate | date:'medium'}}</div>
+        <div><strong>Status</strong> {{getOrderStatusText(order.status)}}</div>
+        <div *ngIf="order.paymentIntentId">
+          <strong>Payment ID</strong> {{order.paymentIntentId}}
+        </div>
+      </div>  
+      <order-items-list [order]="order"></order-items-list>
+    </div>
+  </div>
