@@ -29,4 +29,4 @@ I had made this comprehensive food ordering platform, utilizing a robust technol
 
 I am thrilled with the outcome and excited to apply these experiences to future projects. Always eager to learn and grow! 🌟
 
-🖇️ Here is the video for the project on Google Drive:    https://drive.google.com/drive/folders/1leNnQDJojnn-tayMy_TIFWLZgMPcQHL7
+🖇️ Here is the video for the project on Google Drive:   https://drive.google.com/drive/folders/1leNnQDJojnn-tayMy_TIFWLZgMPcQHL7?usp=sharing
